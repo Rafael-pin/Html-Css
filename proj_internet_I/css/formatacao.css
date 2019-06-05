@@ -1,0 +1,238 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: tahoma;
+}
+p{
+    margin-bottom: 5%;
+}
+h1{
+    margin-top: 10%;
+    font-size: 5vh;
+}
+h2{
+    font-size: 3vh;
+}
+h3{
+    font-size: 4vh;
+    color: white;
+}
+#site{
+    height: 350%;
+    width: 100%;
+    position: absolute;
+    background-color:white;
+}
+#cabecalho{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    background-color: #ff979b;
+    position: fixed;
+    z-index: 92;
+}
+#imagem_topo{
+    width: 30%;
+}
+#imagem_topo img{
+    width: 80%;
+}
+#msg{
+    font-size: 3vh;
+    color: white;
+    margin-top: auto;
+    text-align: center;
+    margin-bottom: auto;
+}
+#menu{
+    list-style: none;
+    display: flex;
+    align-items:center;
+    width: 162%;
+    height: 100%;
+    justify-content: space-around;
+}
+.link{
+    font-size: 3vh;
+    transition: 0.3s;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+#menu .link:hover{
+    text-shadow: none;
+    background-color: rgba(255,255,255,0.3);
+    padding-bottom:  3.5%;
+    padding-top: 3.5%;
+    cursor: pointer;
+    text-shadow: 1px 1px 10px white, -1px -1px 10px white;
+}
+#conteudo{
+    width: 100%;
+    height: 85%;
+}
+#carrosel{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#produtos{
+    padding-top: 7%;
+    height: 32.5%;
+    width: 99%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+.c_produtos{
+    display: block;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 3%;
+    text-align: center;
+    justify-content: center;
+}
+.c_produtos:hover{
+    cursor: pointer;
+}
+
+#produtos img{
+    width: 65%;
+}
+#produtos figcaption{
+    margin: auto;
+    font-size: 2.2vh;
+    align-content: center;
+    text-shadow: 0.5px 0.5px 0px black;
+    color: cadetblue;
+}
+#servicos{
+    margin-top: -2%;
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+#interno{
+    padding-top: 7.5%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 86%;
+    background-color: #ff979b;
+    padding-left: 15%;
+    color: white;
+    font-size: 2vh;
+}
+#procedimento_pele{
+    width: 60%;
+    margin-top: 4%;
+    padding-bottom: 3%;
+    opacity: 0.5;
+    transition: 0.4s;
+}
+#procedimento_pele:hover{
+    opacity: 1;
+    transition: 0.4s;
+}
+#btx{
+    width: 28%;
+    opacity: 0.5;
+    transition: 0.4s;
+}
+#btx:hover{
+    opacity: 1;
+    transition: 0.4s;
+}
+#parte_inferior{
+    background-color: #ff979b;
+    display: flex;
+    height: 15%;
+    width: 100%;
+    position: relative;
+    top: 5%;
+}
+#contato{
+    border-color: white;
+    background-color: #ff979b;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    list-style: none;
+    justify-content: center;
+    border-right-style: solid;
+    border-width: 20px;
+}
+#form_contato{
+    margin: auto;
+    height: 80%;
+    width: 50%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+
+}
+#tit_contato{
+    color: white;
+    margin-bottom: 2%;
+    margin-left: 25%;
+}
+#form_contato label{
+    margin-right: 2%;
+    color: white;
+    font-size: 2vh;
+}
+input{
+    border-style: none;
+    width: 100%;
+}
+legend{
+    color: white;
+    font-size: 2vh;
+}
+textarea{
+    height: 50px;
+    width: 100%;
+    border-style: none;
+}
+.botao{
+    border-style: none;
+    background-color: white;
+    color: black;
+    width: 20%;
+    height: 30%;
+    margin-left: 20%;
+}
+.botao:hover{
+    background-color: aquamarine;
+}
+#redes_soc{
+    list-style: none;
+    height: 20%;
+    flex-direction: column;
+}
+#redes_soc ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.icons{
+    list-style: none;
+    margin-left: 4%;
+    height: 40%;
+}
+#localizacao{
+    background-color: #ff979b;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
